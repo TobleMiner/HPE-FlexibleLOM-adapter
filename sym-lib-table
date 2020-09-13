@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PCIe)(type Legacy)(uri ${KIPRJMOD}/lib/PCIe.lib)(options "")(descr ""))
+  (lib (name HPE_FlexibleLOM)(type Legacy)(uri ${KIPRJMOD}/lib/HPE_FlexibleLOM.lib)(options "")(descr ""))
+)
