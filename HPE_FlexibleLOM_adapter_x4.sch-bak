@@ -993,4 +993,12 @@ Text Label 7000 2000 2    50   ~ 0
 PRSNT_x8
 Wire Wire Line
 	6550 2000 7000 2000
+Text Label 3500 7000 0    50   ~ 0
+PRSNT_x8
+Wire Wire Line
+	3500 7000 3900 7000
+Text Label 3500 5300 0    50   ~ 0
+PRSNT_x4
+Wire Wire Line
+	3500 5300 3900 5300
 $EndSCHEMATC
