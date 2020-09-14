@@ -969,10 +969,10 @@ Connection ~ 9750 3600
 Wire Wire Line
 	9750 3600 10000 3600
 $Comp
-L Jumper:Jumper_3_Bridged12 JP?
+L Jumper:Jumper_3_Bridged12 JP4
 U 1 1 5FAF2248
 P 6550 2300
-F 0 "JP?" V 6400 2050 50  0000 L CNN
+F 0 "JP4" V 6400 2050 50  0000 L CNN
 F 1 "Jumper_3_Bridged12" V 6650 1400 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 6550 2300 50  0001 C CNN
 F 3 "~" H 6550 2300 50  0001 C CNN
@@ -1001,4 +1001,15 @@ Text Label 3500 5300 0    50   ~ 0
 PRSNT_x4
 Wire Wire Line
 	3500 5300 3900 5300
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5FBB5975
+P 15400 600
+F 0 "H?" H 15500 646 50  0000 L CNN
+F 1 "MountingHole" H 15500 555 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 15400 600 50  0001 C CNN
+F 3 "~" H 15400 600 50  0001 C CNN
+	1    15400 600 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
