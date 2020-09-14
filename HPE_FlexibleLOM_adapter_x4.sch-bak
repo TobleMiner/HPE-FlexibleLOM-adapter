@@ -461,7 +461,6 @@ Text Label 5500 3300 2    50   ~ 0
 ~PERST
 NoConn ~ 7900 2600
 NoConn ~ 7900 2700
-NoConn ~ 7900 2800
 NoConn ~ 7900 2900
 NoConn ~ 7900 3000
 NoConn ~ 7900 3100
@@ -1002,14 +1001,19 @@ PRSNT_x4
 Wire Wire Line
 	3500 5300 3900 5300
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5FBB5975
 P 15400 600
-F 0 "H?" H 15500 646 50  0000 L CNN
+F 0 "H1" H 15500 646 50  0000 L CNN
 F 1 "MountingHole" H 15500 555 50  0000 L CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 15400 600 50  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen" H 15400 600 50  0001 C CNN
 F 3 "~" H 15400 600 50  0001 C CNN
 	1    15400 600 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7900 2800 7250 2800
+Wire Wire Line
+	7250 2800 7250 3500
+Connection ~ 7250 3500
 $EndSCHEMATC
