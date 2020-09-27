@@ -9,7 +9,9 @@ PCIe x8 slots.
 # Ordering
 
 Make sure to order this PCB with ENIG finish and beveled edges. Else contact
-might be poor or your PCIe slots could be damaged.
+might be poor or your PCIe slots could be damaged.  
+When ordering through JLC I'd recommend enabling the "Impedance" option and
+sticking to the default JLC7628 stackup during ordering.
 
 # Assembly
 
