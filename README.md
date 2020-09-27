@@ -4,7 +4,7 @@ HPE FlexibleLOM to PCIe adapter
 This PCB is an adapter that allows using HPE FlexibleLOM cards in normal
 PCIe x8 slots.
 
-![PCB top](/assets/HPE_FlexibleLOM_adapter_x8_top.png)
+![PCB top](/assets/revA_photo_top.jpg)
 
 # Ordering
 
